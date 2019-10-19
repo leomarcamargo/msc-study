@@ -1,0 +1,55 @@
+ID,Title,Concern,Bibtex
+499,Incremental model checking of delta-oriented software product lines,SPL Verification,PID499
+500,Parametric DeltaJ 1.5: Propagating Feature Attributes into Implementation Artifacts,Variability Management (SC),PID500
+501,On type checking Delta-Oriented product lines,SPL Verification,PID501
+502,Refactoring Delta-Oriented Product Lines to achieve Monotonicity,Maintenance,PID502
+503,Delta-Oriented FSM-Based Testing,SPL Testing,PID503
+505,Delta-oriented test case prioritization for integration testing ofsoftware product lines,SPL Testing,PID505
+506,Towards incremental model slicing for delta-oriented software product lines,SPL Verification,PID506
+508,Delta-oriented model-based integration testing of large-scale systems,SPL Testing,PID508
+509,Deployment Variability in Delta-Oriented Models,Variability Management (Architecture),PID509
+510,DeltaJ 1.5: delta-oriented programming for Java 1.5,Variability Management (SC),PID510
+511,Delta-oriented multi software product lines,Multi software product lines,PID511
+517,Refactoring delta-oriented software product lines,Maintenance,PID517
+518,A Delta Oriented Approach to the Evolution and Reconciliation of Enterprise Software Products Lines,Maintenance,PID518
+520,Refinement-based testing of delta-oriented product lines,SPL Testing,PID520
+521,A formal foundation for dynamic delta-oriented software product lines,Dynamic SPL,PID521
+523,A Liskov Principle for Delta-Oriented Programming,SPL Verification,PID523
+524,Delta-Oriented Monitor Specification,Variability Management (SC),PID524
+525,Conflict Detection in Delta-Oriented Programming,SPL Verification,PID525
+526,Family-Based Analysis of Type Safety for Delta-Oriented Software Product Lines,SPL Verification,PID526
+527,Evolving Delta-Oriented Software Product Line Architectures,Maintenance,PID527
+528,A transformational proof system for delta-oriented programming,SPL Verification,PID528
+529,Incremental Model-Based Testing of Delta-Oriented Software Product Lines,SPL Testing,PID529
+530,Compositional type-checking for delta-oriented programming,SPL Verification,PID530
+531,Delta-oriented architectural variability using MontiCore,Variability Management (Architecture),PID531
+532,Dynamic delta-oriented programming,Dynamic SPL,PID532
+533,Verification of Software Product Lines with Delta-Oriented Slicing,SPL Verification,PID533
+534,Pure delta-oriented programming,SPL Verification,PID534
+535,Delta-Oriented Programming of Software Product Lines,Variability Management (SC),PID535
+538,SiPL - A Delta-Based Modeling Framework for Software Product Line Engineering,Variability Management (Design),PID538
+540,Delta modeling for software architectures,Variability Management (Architecture),PID540
+545,Engineering delta modeling languages,Variability Management (Design),PID545
+546,Handling database schema variability in software product lines,Variability Management (Database),PID546
+555,Variability modelling in the ABS language,Variability Management (Design),PID555
+1000,A novel model-based testing approach for software product lines,SPL Testing,PID1000
+1001,A UML profile for delta-oriented programming to support software product line engineering,Variability Management (Design),PID1001
+1002,Fine-grained test case prioritization for integration testing of delta-oriented software product lines,SPL Testing,PID1002
+1003,Implementing delta-oriented SPLs using PEoPL: An example scenario and case study,Variability Management (SC),PID1003
+1004,Incremental consistency checking in delta-oriented UML-models for automation systems,SPL Verification,PID1004
+1005,Incremental variability management in conceptual data models of software product lines,Variability Management (Design),PID1005
+1006,Refactoring delta-oriented product lines to enforce guidelines for efficient type-checking,Maintenance,PID1006
+1007,Delta-trait programming of software product lines,Variability Management (SC),PID1007
+1008,DeltaCCS: A core calculus for behavioral change,SPL Verification,PID1008
+1009,Compositional type checking of delta-oriented software product lines,SPL Verification,PID1009
+1010,Delta modeling and model checking of product families,SPL Verification,PID1010
+1011,Requirements-based delta-oriented SPL testing,SPL Testing,PID1011
+1012,Delta-oriented model-based SPL regression testing,SPL Testing,PID1012
+1013,Row types for delta-oriented programming,SPL Verification,PID1013
+2000,A Tool Environment For Quality Assurance of Delta-oriented Model-based SPLs,SPL Verification,PID2000
+2001,A Unified and Formal Programming Model for Deltas and Traits,Variability Management (Design),PID2001
+2002,An Extension of the ABS Toolchain with a Mechanism for Type Checking SPLs,SPL Verification,PID2002
+2003,Delta-Oriented Product Priorization for Similarity-Based Product Line Testing,SPL Testing,PID2003
+2004,Evaluating Delta-Oriented Programming for Evolving Software Product Lines,Empirical Study,PID2004
+2005,Towards a Development Process for Maturing Delta-Oriented Software Product Lines,Variability Management (SC),PID2005
+2006,Unanticipated Evolution in Software Product Lines versus Independent Products: A Case Study,Empirical Study,PID2006

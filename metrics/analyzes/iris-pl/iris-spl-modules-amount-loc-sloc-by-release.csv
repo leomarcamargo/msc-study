@@ -1,0 +1,9 @@
+Release,Technique,TypeModule,Amount,SLOC,LOC
+base,dop,Java,71,2782,4312
+v0.1.0,dop,Delta,23,4230,5735
+v0.1.1,dop,Delta,27,4372,5904
+base,aop,Java,71,2782,4312
+v0.1.0,aop,Java,102,4755,6952
+v0.1.0,aop,Aspect,7,115,208
+v0.1.1,aop,Java,103,4847,7054
+v0.1.1,aop,Aspect,8,223,339

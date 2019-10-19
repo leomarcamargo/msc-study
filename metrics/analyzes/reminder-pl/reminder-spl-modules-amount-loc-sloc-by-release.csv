@@ -1,0 +1,9 @@
+Release,Technique,TypeModule,Amount,SLOC,LOC
+v1,cc,Java,39,1770,2213
+v2,cc,Java,47,2680,3461
+v3,cc,Java,51,3442,4587
+v4,cc,Java,52,3843,5169
+v1,dop,Delta,24,2126,2633
+v2,dop,Delta,32,3513,4294
+v3,dop,Delta,50,4950,6071
+v4,dop,Delta,55,5653,6927

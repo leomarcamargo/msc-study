@@ -1,0 +1,55 @@
+﻿ID,Title,Authors,Year,Venue,Category1,Citations,Bibtex
+499,Incremental model checking of delta-oriented software product lines,"Malte Lochau, Stephan Mennicke, Hauke Baller, Lars Ribbeck",2016,JLAP,Journal,7,PID499
+500,Parametric DeltaJ 1.5: Propagating Feature Attributes into Implementation Artifacts,"Tim Winkelmann, Jonathan Koscielny, Christoph Seidl, Sven Schuster, Ferruccio Damiani, Ina Schaefer",2016,-,SEV,3,PID500
+501,On type checking Delta-Oriented product lines,"Ferruccio Damiani, Michael Lienhardt",2016,IFM,FMV,8,PID501
+502,Refactoring Delta-Oriented Product Lines to achieve Monotonicity,"Ferruccio Damiani, Michael Lienhardt",2016,FMSPLE,FMV,2,PID502
+503,Delta-Oriented FSM-Based Testing,"Matthias Kowal, Ina Schaefer",2015,ICFEM,FMV,3,PID503
+505,Delta-oriented test case prioritization for integration testing ofsoftware product lines,"Remo Lachmann, Sascha Lity, Sabrina Lischke, Simon Beddig, Sandro Schulze, Ina Schaefer",2015,SPLC,SEV,8,PID505
+506,Towards incremental model slicing for delta-oriented software product lines,"Sascha Lity, Hauke Baller, Ina Schaefer",2015,SANER,SEV,5,PID506
+508,Delta-oriented model-based integration testing of large-scale systems,"Zheng Yin, Anthony Brabazon, Conall O'Sullivan, Michael O'Neill",2014,JSS,Journal,25,PID508
+509,Deployment Variability in Delta-Oriented Models,"Einar Broch Johnsen, Rudolf Schlatte, and S. Lizeth Tapia Tarifa",2014,ISoLA,FMV,2,PID509
+510,DeltaJ 1.5: delta-oriented programming for Java 1.5,"Jonathan Koscielny, Sönke Holthusen, Ina Schaefer, Sandro Schulze, Lorenzo Bettini, Ferruccio Damiani",2014,PPPJ,PLV,40,PID510
+511,Delta-oriented multi software product lines,"Ferruccio Damiani, Ina Schaefer, Tim Winkelmann",2014,SPLC,SEV,11,PID511
+517,Refactoring delta-oriented software product lines,"Sandro Schulze, Oliver Richers, Ina Schaefer",2013,AOSD,SEV,27,PID517
+518,A Delta Oriented Approach to the Evolution and Reconciliation of Enterprise Software Products Lines,"Gleydson Lima, Jadson Santos, Uirá Kulesza, Daniel Alencar, Sergio Vianna Fialho",2013,ICEIS,SEV,4,PID518
+520,Refinement-based testing of delta-oriented product lines,"Ferruccio Damiani, Christoph Gladisch, Shmuel S. Tyszberowicz",2013,PPPJ,PLV,5,PID520
+521,A formal foundation for dynamic delta-oriented software product lines,"Ferruccio Damian, Luca Padovani, Ina Schaefer",2012,GPCE,SEV,17,PID521
+523,A Liskov Principle for Delta-Oriented Programming,"Reiner Huahnle, Ina Schaefer",2012,ISoLA,FMV,35,PID523
+524,Delta-Oriented Monitor Specification,"Eric Bodden, Kevin Falzon, Ka I Pun, Volker Stolz",2012,ISoLA,FMV,1,PID524
+525,Conflict Detection in Delta-Oriented Programming,"Michael Lienhardt, Dave Clarke",2012,ISoLA,FMV,7,PID525
+526,Family-Based Analysis of Type Safety for Delta-Oriented Software Product Lines,"Ferruccio Damiani, Ina Schaefer",2012,ISoLA,FMV,23,PID526
+527,Evolving Delta-Oriented Software Product Line Architectures,"Arne Haber, Holger Rendel, Bernhard Rumpe, Ina Schaefer",2012,LSCS,SEV,36,PID527
+528,A transformational proof system for delta-oriented programming,"Ferruccio Damiani, Olaf Owe, Johan Dovland, Ina Schaefer, Einar Broch Johnsen, Ingrid Chieh Yu",2012,SPLC,SEV,25,PID528
+529,Incremental Model-Based Testing of Delta-Oriented Software Product Lines,"Malte Lochau, Ina Schaefer, Jochen Kamischke, Sascha Lity",2012,TAP,FMV,69,PID529
+530,Compositional type-checking for delta-oriented programming,"Ina Schaefer, Lorenzo Bettini, Ferruccio Damiani",2011,AOSD,SEV,63,PID530
+531,Delta-oriented architectural variability using MontiCore,"Arne Haber, Thomas Kutz, Holger Rendel, Bernhard Rumpe, Ina Schaefer",2011,ECSA,SEV,41,PID531
+532,Dynamic delta-oriented programming,"Ferruccio Damiani, Ina Schaefer",2011,SPLC,SEV,29,PID532
+533,Verification of Software Product Lines with Delta-Oriented Slicing,"Jun Wu, Xin Xu, Chuanqiang Lian, Yan Huang",2010,FoVeOOS,FMV,34,PID533
+534,Pure delta-oriented programming,"Ina Schaefer, Ferruccio Damiani",2010,FOSD,SEV,60,PID534
+535,Delta-Oriented Programming of Software Product Lines,"Ina Schaefer, Lorenzo Bettini, Viviana Bono, Ferruccio Damiani, Nico Tanzarella",2010,SPLC,SEV,290,PID535
+538,SiPL - A Delta-Based Modeling Framework for Software Product Line Engineering,"Christopher Pietsch, Timo Kehrer, Udo Kelter, Dennis Reuling, Manuel Ohrndorf",2015,ASE,SEV,7,PID538
+540,Delta modeling for software architectures,"Arne Haber, Holger Rendel, Bernhard Rumpe, Ina Schaefer",2014,-,SEV,45,PID540
+545,Engineering delta modeling languages,"Arne Haber, Katrin Hölldobler, Carsten Kolassa, Markus Look, Bernhard Rumpe, Klaus Müller, Ina Schaefer",2013,SPLC,SEV,46,PID545
+546,Handling database schema variability in software product lines,"Niloofar Khedri, Ramtin Khosravi",2013,APSEC,SEV,12,PID546
+555,Variability modelling in the ABS language,"Dave Clarke, Radu Muschevici, José Proença, Ina Schaefer, Rudolf Schlatte",2010,FMCO,FMV,34,PID555
+1000,A novel model-based testing approach for software product lines,"Damiani, F., Faitelson, D., Gladisch, C., Tyszberowicz, S.",2016,SoSyM,Journal,1,PID1000
+1001,A UML profile for delta-oriented programming to support software product line engineering,"Setyautami, M.R.A., Hähnle, R., Muschevici, R., Azurat, A.",2016,SPLC,SEV,3,PID1001
+1002,Fine-grained test case prioritization for integration testing of delta-oriented software product lines,"Lachmann, R., Lity, S., Al-Hajjaji, M., Fürchtegott, F., Schaefer, I.",2016,FOSD,SEV,4,PID1002
+1003,Implementing delta-oriented SPLs using PEoPL: An example scenario and case study,"Behringer, B., Fey, M.",2016,FOSD,SEV,2,PID1003
+1004,Incremental consistency checking in delta-oriented UML-models for automation systems,"Kowal, M., Schaefer, I.",2016,EPTCS,FMV,2,PID1004
+1005,Incremental variability management in conceptual data models of software product lines,"Khedri, N., Khosravi, R.",2015,APSEC,SEV,2,PID1005
+1006,Refactoring delta-oriented product lines to enforce guidelines for efficient type-checking,"Damiani, F., Lienhardt, M.",2016,ISoLA,FMV,2,PID1006
+1007,Delta-trait programming of software product lines,"Damiani, F., Schaefer, I., Schuster, S., Winkelmann, T.",2014,ISoLA,FMV,3,PID1007
+1008,DeltaCCS: A core calculus for behavioral change,"Lochau, M., Mennicke, S., Baller, H., Ribbeck, L.",2014,ISoLA,FMV,15,PID1008
+1009,Compositional type checking of delta-oriented software product lines,"Bettini, L., Damiani, F., Schaefer, I.",2013,ACTA,Journal,36,PID1009
+1010,Delta modeling and model checking of product families,"Sabouri, H., Khosravi, R.",2013,FNSE,SEV,8,PID1010
+1011,Requirements-based delta-oriented SPL testing,"Dukaczewski, M., Schaefer, I., Lachmann, R., Lochau, M.",2013,PLEASE,SEV,7,PID1011
+1012,Delta-oriented model-based SPL regression testing,"Lity, S., Lochau, M., Schaefer, I., Goltz, U.",2012,PLEASE,SEV,12,PID1012
+1013,Row types for delta-oriented programming,"Lienhardt, M., Clarke, D.",2012,VAMOS,SEV,7,PID1013
+2000,A tool environment for quality assurance of delta-oriented model-based SPLs,"Pietsch C., Reuling D., Kelter U., Kehrer T.",2017,VAMOS,SEV,2,PID2000
+2001,A unified and formal programming model for deltas and traits,"Damiani F., Hähnle R., Kamburjan E., Lienhardt M.",2017,FASE,SEV,1,PID2001
+2002,An extension of the ABS toolchain with a mechanism for type checking SPLs,"Damiani F., Lienhardt M., Muschevici R., Schaefer I.",2017,IFM,FMV,0,PID2002
+2003,Delta-Oriented Product Prioritization for Similarity-Based Product-Line Testing,"Al-Hajjaji M., Lity S., Lachmann R., Thüm T., Schaefer I., Saake G.",2017,VASE,SEV,0,PID2003
+2004,Evaluating Delta-Oriented Programming for Evolving Software Product Lines,"Diniz J.P., Vale G., Gaia F., Figueiredo E.",2017,VACE,SEV,0,PID2004
+2005,Towards a development process for maturing delta-oriented software product lines,"Schuster S., Seidl C., Schaefer I.",2017,FOSD,SEV,0,PID2005
+2006,Unanticipated evolution in software product lines versus independent products: A case study,"Hamza M., Walker R.J., Elaasar M.",2017,SPLC,SEV,0,PID2006

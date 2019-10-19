@@ -1,0 +1,127 @@
+---
+title: "Data Analysis"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+require(reshape)
+require(sqldf)
+require(ggplot2)
+require(igraph)
+require(RCurl)
+```
+
+## Initial Procedures
+
+First of all, we load the datasets and then:
+   * perform some "reshaping" (using the melt function) of the datasets
+   * filter the datasets to only consider valid primary studies
+
+```{r}
+d1 <- getURL("http://rbonifacio.net/papers/delta-slr/datasets/concern.csv")
+d2 <- getURL("http://rbonifacio.net/papers/delta-slr/datasets/empirical-method.csv")
+concern <- read.csv(text=d1, head=T)
+empiricalMethod <- read.csv(text=d2, head=T)
+empiricalMethod <- melt(empiricalMethod, c("ID"))
+empiricalMethod <- sqldf("select ID, variable as Method from empiricalMethod where value = 'Y'")
+```
+
+To build the bubble plot of the paper, it is necessary to join both datasets (*empiricalMethods* and *SPL concern*). 
+
+```{r}
+concernMethod <- sqldf("SELECT c.ID, c.Concern, em.Method 
+                        FROM concern c, empiricalMethod em 
+                        WHERE c.ID = em.ID")
+```
+
+It is also interesting to export the joined dataset and summarize the data, so that we could provide 
+one more cleanup session. That is, it might be important to remove some details that are not 
+necessary to our analysis. Particularly, the subclassification of variability management in the 
+resulting dataset was condensed in the paper. We also summarize the datase. Note that, here we 
+load a processed data-set. 
+
+```{r}
+# write.csv(concernMethod,file="/Users/rbonifacio/Documents/delta-slr/data/concern-method.csv")
+d1 <- getURL("http://rbonifacio.net/papers/delta-slr/datasets/concern-method.csv")
+concernMethod <- read.csv(text=d1, head=T)
+concernMethod.summary <- sqldf("SELECT Concern, Method, count(*) as Count 
+                                FROM concernMethod 
+                                GROUP BY Concern, Method")
+```
+
+Now, we are ready to generate a bubble plot. 
+
+```{r pressure, echo=FALSE}
+p <- ggplot(concernMethod.summary, aes(Concern,Method,size=Count, label=Count))
+p <- p+geom_point(colour="lightgray") + scale_size_area(max_size=20) + geom_text(size=5)
+p + ylab("") + xlab("") + theme_bw()
+```
+
+### Social network analysis of the primary studies 
+
+In this section we build several graphs for reasoning 
+about the relationships between authors of 
+the primary studies. 
+
+We first generate a CSV file 
+having the id of the primary study and the names of each 
+author of the paper (separated by a semicolon)
+We implemented a Python script that takes a file 
+with this structure and exports two new files: one with 
+a list of authors (the list of vertices of the 
+graph) and one with the relationships (the edges of the 
+graph) between the authors of the papers. 
+
+Actually, this second 
+file has three columns: author one, author two, 
+and weight (the number of times the two authors 
+co-author together). With this two files, we 
+use the *igraph* R package to build the 
+graph and reason about some of its properties. 
+
+```{r}
+d1 <- getURL("http://rbonifacio.net/papers/delta-slr/datasets/delta-vertices.csv")
+d2 <- getURL("http://rbonifacio.net/papers/delta-slr/datasets/delta-edges.csv")
+vs <- read.csv(text=d1,head=T)
+es <- read.csv(text=d2,head=T)
+mg <- graph_from_data_frame(d=es, vertices=vs, directed=F)
+mg2 <- delete.edges(mg,E(mg)[weight == 1])
+mg3 <- delete_vertices(mg2,V(mg2)[Papers == 1])
+
+par(mfrow = c(1,2),
+    oma = c(5,4,0,0) + 0.1,
+    mar = c(0,0,1,1) + 0.1)
+plot(mg, vertex.label=NA, vertex.size=V(mg)$Papers)
+plot(mg3, vertex.label=NA, vertex.size=V(mg3)$Papers)
+# d1 <- getURL("http://rbonifacio.net/papers/delta-slr/datasets/primary-studies")
+# ps <- read.csv(text=d1,head=T)
+# Year = factor(ps$Year)
+# plot(table(Year),type="o")
+```
+
+
+### AOP + SPLines author networks
+
+We also build similar graphs to AOP + SPLines and FOP. As an example: 
+
+```{r}
+vs <- read.csv("http://rbonifacio.net/papers/delta-slr/datasets/aop-spl-vertices.csv", head=T)
+es <- read.csv("http://rbonifacio.net/papers/delta-slr/datasets/aop-spl-edges.csv",head=T)
+mg <- graph_from_data_frame(d=es, vertices=vs, directed=F)
+mg2 <- delete.edges(mg,E(mg)[weight == 1])
+mg3 <- delete_vertices(mg2,V(mg2)[Papers == 1])
+par(mfrow = c(1,2),
+    oma = c(5,4,0,0) + 0.1,
+    mar = c(0,0,1,1) + 0.1)
+plot(mg, vertex.label=NA, vertex.size=V(mg)$Papers)
+plot(mg3, vertex.label=NA, vertex.size=V(mg3)$Papers)
+```
+
+```{r}
+library(ggplot2)
+ps <- read.csv("Documents/delta-slr/data/primary-studies.csv", head=T)
+mds <- as.data.frame(ps$Category1)
+ggplot(mdf, aes(x=reorder(Var1, +Freq), y=Freq)) + geom_bar(stat="identity",fill="#FFCC99",colour="black") + xlab("") + ylab("")
+```

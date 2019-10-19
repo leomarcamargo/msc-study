@@ -1,0 +1,113 @@
+e3eeb6a555908b9aa16f9e9e03a66e3aeb094dbc,05-11-2014 11:16:06,-
+3dbb33eb7630bb1a827abfcada324d3b75cfafb8,06-11-2014 12:13:13,-
+5b299f516b7e501550a3017bb2f138074aa5e840,06-11-2014 19:39:19,"dCommand, dCore, dException, dModel"
+f40fe9c5ec548acdaf4089284d2e178e767db7e8,06-11-2014 19:44:03,-
+433ce4364a33cf009f489ac738a00e77b8955b9b,06-11-2014 19:55:04,-
+75d965ce586c73282a561c03986005e732265d23,06-11-2014 19:57:53,"dCommand, dCore, dException, dModel"
+defd3628b6eda2fdfd9515c79df987aa68d34915,06-11-2014 20:47:10,-
+aa0bea9519de8dfdc4941c7fabe3f74ac0bb7f94,06-11-2014 20:50:21,-
+6adec0ffba4fecee57d1212c6440a1cbcfa34cb6,06-11-2014 21:32:24,"dBase, dBaseCommand, dBaseException, dBaseMail, dBaseModel, dBasePersistence"
+836df678650bcbfa6c839ef257b9fe55a213633d,07-11-2014 09:14:02,-
+aa4a6726fa4358e14bce3ef55d68a949da6af54e,07-11-2014 09:50:17,dBaseCommand
+a663951dff4dc4f6c4091621c5fee1fd81d816de,07-11-2014 10:04:45,dBasePersistence
+9ddeceb6ead397a68c1eb7b326bd0334aee4c2cb,07-11-2014 15:53:13,-
+ebb2da75b834526b47a8177becd87032ced75e9f,08-11-2014 09:55:04,"dAddressBook, dAddressBookConsole, dAddressBookSqlite, dBase, dBaseCommand, dBaseException, dBaseFacade, dBaseMail, dBaseModel, dBasePersistence, dGmailProvider, dConsole, dPersistenceSqlite"
+8fd1f2fb555965e7add4f59128d30a62787f0ea6,10-11-2014 06:25:46,-
+24163019776478f4f662040c84a6013f06342238,10-11-2014 07:41:27,"dBaseMail, dGmailProvider"
+c70b79d57b912be1f0f73acfb755f7bda5b99d8b,10-11-2014 18:56:28,"dAddressBook, dPersistenceSqlite"
+36333888f774fa7224206c38430fd4a38fe07f70,13-11-2014 08:49:08,"dBasePersistence, dPersistenceSqlite"
+bf239a670380da665625aa11b852f2532e4698c8,13-11-2014 09:44:28,"dBaseCommand, dBaseFacade, dBaseMail"
+45ceefcfde83eb2e3ca17de3174dfa4acf41c702,13-11-2014 16:14:18,dPersistenceLucene
+a16075d18332de2d435bb4b2dd158371ac37c5b3,13-11-2014 20:48:35,"dBaseFacade, dBaseModel, dBasePersistence, dConsole, dPersistenceSqlite"
+406045b20ebd8d309c0d47917ad13100c0e71e60,14-11-2014 06:33:50,"dAddressBookFacade, dTestAddressBookDAO, dBaseFacade, dPersistenceSqlite, dTestFolderDAO"
+5683d3a2851ab7be4fcb667b3b6ea029ec729ec4,14-11-2014 06:52:50,-
+3457505b1fea8abecfc07b8ecbe989da89662a7c,14-11-2014 08:55:32,-
+c30ffde329f54b560a6ccacac4e1ce451d467fd3,14-11-2014 09:13:29,"dConsole, dPersistenceLucene, dPersistenceSqlite"
+553e4fdad0f1278e0fc1df85f77ed8be045a5a1a,14-11-2014 09:38:34,-
+f4ed1d75c7ccdc7ac3d3103c460fa3fc22fefb34,14-11-2014 14:06:05,"dBaseFacade, dPersistenceLucene, dPersistenceSqlite"
+3893403cf6af355b4ae1e6368efd3964e5cdd8bf,14-11-2014 15:02:00,dPersistenceLucene
+8b0371856293cbd1ced51d5f444f6b604bfdf930,14-11-2014 16:07:05,dPersistenceLucene
+e3f67a6120a409142cf2cb807d54f6c9a7694e19,15-11-2014 18:03:31,dPersistenceLucene
+b8948e9d5ee495812e1bb3d6b27fa6d3d56566e5,15-11-2014 18:31:27,dPersistenceLucene
+075a778ecee3dc4c8214a3e22636416c52e8f1a8,15-11-2014 19:01:18,dPersistenceLucene
+800b220530e62f784fdc9a6b69064fb60f60199c,15-11-2014 20:21:27,"dBaseFacade, dPersistenceLucene"
+ef1047db6c08798c11f17fc7c7498886d8f3e701,15-11-2014 20:35:03,dPersistenceLucene
+7acd479870e4a390fdbf72b82462f27da812f98e,16-11-2014 13:01:02,"dAddressBook, dAddressBookFacade, dAddressBookLucene, dAddressBookRelational, dTestAddressBookDAO, dConsole, dPersistenceLucene, dPersistenceSqlite, dAddressBookLucene"
+abf57bf22a2d906efe8f9fb3810d3deb98c3cc98,16-11-2014 13:18:22,"dAddressBook, dAddressBookFacade, dAddressBookLucene, dAddressBookRelational"
+ec437618c67b234799abce49f5892f38e14b5a91,16-11-2014 15:35:17,dTestFolderDAO
+fba5ddbd8b3d93dbd421983ddbdfba0019c1f2f7,17-11-2014 13:12:48,"dTestAddressBookDAO, dBaseFacade, dPersistenceSqlite, dTestFolderDAO"
+d6fa766326daf9ae37f3596f862dbfb52f1fbd8c,17-11-2014 13:31:39,"dAddressBook, dAddressBookFacade, dAddressBookLucene, dAddressBookRelational, dBaseFacade, dConsole, dPersistenceLucene, dPersistenceSqlite, dAddressBookLucene"
+e0df88f37540b6aa8e93105193be17233b17b304,17-11-2014 15:12:52,"dAddressBookRelational, dBaseFacade, dPersistenceSqlite"
+0f1873da9f10fa3fc86c220512b25ef4104f1a6c,17-11-2014 15:58:27,"dAddressBookRelational, dTestAddressBookDAO, dPersistenceRelational, dTestFolderDAO"
+92d4df41518ce3e7af3dbaedc5a043361ab08856,17-11-2014 16:01:12,dAddressBookLucene
+f6f4d870ad6b727596faefbd06c10cd85fe078d1,18-11-2014 10:08:16,"dPersistenceRelational, dTagBase, dTagRelational, dTestRelationalTagDAO"
+988ef551016f451f92da5741e403c31ec4cfe934,18-11-2014 14:03:50,"dAddressBook, dAddressBookLucene, dAddressBookRelational, dBaseMail, dConsole"
+d3926c6acb250781d20be466433dd21e2ae1d406,18-11-2014 14:23:25,"dBaseFacade, dBasePersistence, dPersistenceRelational, dTagBase, dTagRelational"
+6963caa30674daeec4f6a3d9fc24cd824951e299,18-11-2014 15:32:21,"dAddressBook, dAddressBookLucene, dBaseFacade, dBasePersistence, dConsole, dPersistenceLucene, dPersistenceRelational, dTagBase, dTagConsole"
+7bdfd6e6fd4f2d647fda5b76136fefa615bae681,20-11-2014 13:22:06,"dAddressBookConsole, dBase, dBaseFacade"
+58d67fa1d7976f5d7fa941129c07550e1c95939f,20-11-2014 15:38:50,"dBaseFacade, dBaseMail, dBasePersistence, dPersistenceRelational"
+9b450e11d921f227adfd0f58a871b741799f9850,20-11-2014 16:21:08,"dPersistenceRelational, dTagBase, dTagConsole, dTagRelational"
+6808cddcf431bff1572eae4f4df0e2b5dcb1bb95,20-11-2014 18:54:34,"dTagConsole, dTagRelational"
+92596c6468df7a4c47d134d3b5ef113d9d030f9f,20-11-2014 21:28:56,"dTagBase, dTagConsole, dTagRelational"
+f6f5537884f9c58ca4ec7df9e13eaad9c559ccc3,20-11-2014 22:55:01,dAddressBookRelational
+a54d7ed332a9e3181fa2719002c70317389bdf50,20-11-2014 22:55:27,"dTagBase, dTagConsole, dTagRelational"
+2c7951d1c8f1f5c63e9b6d79f26b5f0f723304b4,20-11-2014 23:06:02,-
+0518f6447ab5da3e81f02ae0b34e46f12e4e7d7e,21-11-2014 08:49:42,"dPersistenceLucene, dTagLucene"
+564d0134f4fbf4ef531287f1bb845b5c89acc9e3,21-11-2014 09:31:17,"dPersistenceLucene, dTagLucene"
+8b0099dc3c96fd4babe6dada8191772d460c0c54,21-11-2014 10:12:50,"dTagBase, dTagLucene, dTagRelational"
+f6b0f3758f6232537c45255ddf454ef1fc69d26c,21-11-2014 16:02:13,"dBaseModel, dPersistenceLucene"
+ab157c1cee8fc84bef810c2a44b4057b1bd409a7,22-11-2014 17:51:48,dAddressBookLucene
+0194252629c1c0073562dd10f34b1f1245689adb,22-11-2014 19:30:03,dPersistenceLucene
+c6b68909b25d5220b64ce6bd464fc5707c983338,22-11-2014 19:55:54,dPersistenceLucene
+efe534980c488ea7820f65ac33e11a8abf03ecbb,23-11-2014 10:40:53,"dAddressBookLucene, dPersistenceLucene"
+a3f6b1484a7b04bf0cb207cd1e5006f6a207428d,23-11-2014 10:49:38,"dAddressBookLucene, dPersistenceLucene"
+96e88c5711d45e859dffc611ebbe8efe1498edf0,23-11-2014 11:35:47,"dAddressBookLucene, dPersistenceLucene, dTagLucene"
+b999d784495050e85946214086ceec2599277e03,23-11-2014 19:27:09,"dBaseFacade, dBasePersistence, dConsole, dPersistenceLucene, dPersistenceRelational, dTagRelational"
+b4f90f4a62bf31ea63eb259e937a3b9f46c7c815,24-11-2014 13:39:02,"dAddressBook, dAddressBookConsole, dAddressBookLucene, dAddressBookRelational, dBaseCommand, dBaseFacade, dPersistenceLucene"
+003dd43ca9cfbfe99f276bd682c34b3aab7cf0b0,24-11-2014 14:44:33,"dBaseCommand, dBaseFacade, dConsole"
+d3208c6914eb0b5c0336f123b7bf7df55e637f9d,24-11-2014 15:22:50,-
+c53022ab62725235df05111949eb6481c8c2a14d,24-11-2014 15:24:43,-
+7278ed2843f474d7401b733d5874da8fa2af284e,25-11-2014 13:58:33,"dAddressBook, dAddressBookRelational"
+6f588d72ef7affab4e817e082b2ba1d490a969dd,25-11-2014 15:48:22,"dBaseFacade, dConsole, dPersistenceLucene, dPersistenceRelational, dTestFolderDAO"
+390afe63f7ee08a01ee03b85c8b9c5d583ee28a4,25-11-2014 15:49:16,"dAddressBook, dAddressBookRelational"
+e9ec37778da35c2dceb5b80bd3fac0845c44c1e0,26-11-2014 12:12:53,"dTagBase, dTagConsole, dTagLucene, dTagRelational"
+539bef304274aeb364df02807443b939c3800d74,26-11-2014 13:19:17,"dAddressBook, dAddressBookRelational"
+a30577b19ace5a26508c47e2ecd001914d0392de,26-11-2014 13:23:37,dAddressBookRelational
+f79115dc9020273d4efb4cb0cb6696bd81309e8e,26-11-2014 14:20:30,"dAddressBookRelational, dBaseFacade, dBaseModel, dBasePersistence, dPersistenceRelational"
+f820eaedb937596e4c9cda0d70b3ba74104a6561,26-11-2014 22:55:03,"dAddressBookLucene, dPersistenceLucene, dTagLucene"
+6af7e95fc5f1bb72b4a61b5141957e479e63db02,27-11-2014 15:26:03,dTagConsole
+ba1a2c0225dfb3244e5cc911791f121a03a57189,28-11-2014 07:07:35,"dBaseModel, dPersistenceRelational"
+78aecb4a43f8900dc4e644e7ca5ed4f8753b1bfc,03-12-2014 13:16:55,-
+e71a03573a7d21a09872a9a1d35048e8a89b4f1b,03-12-2014 13:50:49,-
+82a18232575a5369f6b457f92e12603bcb751ef6,03-12-2014 16:07:02,-
+a0871e0bf3daa5ce684282d5f1a93650041692d9,05-12-2014 16:38:00,dLuceneSearch
+6a60207b2105258e0f1db12074a24095b8e8b31d,05-12-2014 17:16:34,"dPersistenceLucene, dLuceneSearch"
+3816ee357c0afa7e9a7523de427079d549c2cb87,05-12-2014 17:45:02,dPersistenceLucene
+39512144bec8bbfdc91f15821f54ce6d97128f57,22-01-2015 15:29:37,"dPersistenceLucene, dSearchLucene"
+9cf6537fe2687a72794dcac1f568ec19513e74e1,22-01-2015 18:12:56,"dBaseCommand, dBaseException, dSearchConsole, dSearchFacade, dSearchLucene, dTagBase"
+6578e2755f987f6c98aa5fde97a4eaf006238f3c,02-02-2015 14:16:25,"dAddressBookLucene, dTagLucene"
+b567efba54c5504d24d5261a48f25c247e65ffa7,02-02-2015 14:16:51,dSearchRelational
+bc1f26739163503a635c4aab9eae543724d6b36c,02-02-2015 15:31:28,dSearchLucene
+9af7f084a891c22163a408c02765ee66b9f9e092,03-02-2015 11:35:54,dSearchRelational
+08d2980ad2fe2cde436f32cda8074b57032dda91,06-02-2015 08:28:57,"dAdvancedSearch, dSimpleSearch"
+45a5e38cee287b44ff12760df24521b81b13f547,06-02-2015 10:50:08,"dAddressBook, dBaseFacade, dBaseMail, dConsole"
+236cbccb119c5162b0f6dd96e6828d081789392b,06-02-2015 12:22:02,-
+8f36b5caa2c1909a7b81ad9463e8747a2833caae,06-02-2015 12:22:56,"dAddressBook, dAddressBookLucene, dBaseFacade, dBaseMail, dConsole, dAdvancedSearch, dSimpleSearch, dTagLucene"
+ece37f5b8bbb65207759665c3c8df416532a40ef,06-02-2015 12:33:11,-
+daa2f5a73857c1275618229cac8719b6507bbadb,06-02-2015 12:33:42,-
+4f28a95b3fa6c356af4ffbc1ab2b6a43abbaabe9,09-02-2015 12:23:09,-
+e621cf8442217d6b5e7478df66c43c750b568d5f,16-02-2015 14:17:51,-
+ab56b5cbf8052a8ff6dab4de665a814ccdb52fab,16-02-2015 18:18:13,-
+8e4a05df60ba02a3e07b87603e311f896fb6a2c1,24-02-2015 13:14:57,-
+21ecd8ff96d233c98c5fa61bc2e7a469253915b8,24-02-2015 15:09:08,-
+9a4ce80e028b830e6b20ce4180bb2b55a19b86b3,05-03-2015 16:09:27,"dBaseMail, dSecurityBaseMail, dSecurityCommand, dSecurityDecrypt, dSecurityEncrypt, dSecurityFacade, dSecurityPgp, dSecuritySign, dSecurityVerify"
+27b19add9fe71ae65a528cbf98abeeff8c587b22,05-03-2015 16:42:59,"dAddressBook, dBaseMail"
+6f63f449aa2bdccc769735cbf0cf11f60fcbb7a6,09-03-2015 16:51:40,"dSecurityBaseMail, dSecurityCommandSendEncrypt, dSecurityCommandSendSign, dSecurityCommandSendSignEncrypt, dSecurityDecrypt, dSecurityEncrypt, dSecurityFacade, dSecurityPgp, dSecuritySign, dSecurityVerify"
+2de6cd00144b793f99b75bd8794c2922f9dee6d9,12-03-2015 19:26:14,"dSecurityEncrypt, dSecuritySign"
+0ee4045b53e22fc75ba27f4d7edf8f52be45293d,14-03-2016 09:57:25,-
+98e7c1eb8866abe696d113c36c69e40e06d5edfe,15-03-2016 09:03:53,"dOutlookProvider, dYahooProvider"
+845028183d2df07f98eaecc3a760ffd8874b4a90,15-03-2016 10:00:10,"dBaseFacade, dPersistenceRelational"
+f2ee25caa45a6997c1f6cc7e6ce89c6877621e27,15-03-2016 10:42:20,"dAddressBookRelational, dSimpleSearch, dTagRelational"
+ddf231e1b26c38d90399e2f36f4f108dd1f59c18,16-03-2016 09:22:35,-
+da09954400287bee66e53eb83d08d90605c54b9c,16-03-2016 11:10:56,-
+1a82388a1769d28cf1b17511e3be5d5dbae608cc,28-03-2016 11:40:43,-
